@@ -20,19 +20,13 @@
             <div class="col-3 p-5 bg-light rounded">
                 <h4>Look up the forecast for a city below:</h4>
                 <div class="input-group mb-4">
-                    <input type="text" class="form-control" placeholder="City">
+                    <input type="text" class="form-control" placeholder="City" id="city-input">
                     <div class="input-group-append">
-                      <button class="btn btn-outline-secondary" type="button">Forecast!</button>
+                      <button class="btn btn-outline-secondary" type="button" id="submit-button">Forecast!</button>
                     </div>
                 </div>
                 <h5 class="border-bottom border-muted text-muted mb-3">Search history:</h5>
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-action text-muted">Placeholder1</li>
-                    <li class="list-group-item list-group-item-action text-muted">Placeholder2</li>
-                    <li class="list-group-item list-group-item-action text-muted">Placeholder3</li>
-                    <li class="list-group-item list-group-item-action text-muted">Placeholder4</li>
-                    <li class="list-group-item list-group-item-action text-muted">Placeholder5</li>
-                </ul>
+                <ul class="list-group" id="search-history"></ul>
             </div>
         <!-- DIV FOR CURRENT WEATHER BOX -->
             <div class="col-9 p-5 bg-secondary rounded">
